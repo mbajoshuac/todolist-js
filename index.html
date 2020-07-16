@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <!--javascript page linking-->
+    <script src="index.js"></script>
+    <!-- css linking for the page-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todo List App</title>
+</head>
+
+<body>
+    <div class="top">
+        <!-- myTodo title-->
+        <div class="title">
+            <h1>My Todo List</h1>
+        </div>
+        <!-- Adding new task input tag and buttons-->
+        <div class="input">
+            <input type="text" id="newTask" placeholder="Enter your next task Here...">
+            <span><button id="addTask" onclick="addNewTask();"class="btn"> Add New Task </button></span>
+        </div>
+        <div class="addedTask" id="addedTask">
+
+            <span class="list-btn">
+                <button id="completed-btn">Completed</button>
+                <button>edit</button> 
+                <button>Delete</button> 
+            </span>
+        </div>
+        <div class="clearTask">
+            <button id="clearTask"> Clear All Task </button>
+        </div>
+    </div>
+
+</body>
+
+</html>

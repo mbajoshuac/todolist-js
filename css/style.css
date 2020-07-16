@@ -1,0 +1,45 @@
+body {
+    background-color: cornsilk;
+}
+
+.top {
+    text-align: center;
+}
+
+.input-container {
+    width: 100%;
+}
+
+input[id=newTask] {
+    width: 50%;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.btn {
+    background-color: beige;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#completed-btn {
+    background-color: beige;
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.title {
+    font-family: 'Trebuchet MS';
+}
+
+.list-btn {
+    padding-left: 50px;
+}
+
+.addedTask {
+    padding: 20px;
+}
