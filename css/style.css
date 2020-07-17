@@ -16,30 +16,71 @@ input[id=newTask] {
     font-size: 15px;
 }
 
-.btn {
-    background-color: beige;
-    font-size: 15px;
-    color: black;
-    font-weight: bolder;
-    padding: 5px;
+#edit-form {
+    margin: 20px;
+    padding: 10px;
 }
 
-#completed-btn {
+.edit_input {
+    padding: 5px;
+    font-size: 15px;
+    width: 80%;
+}
+
+.edit-button {
+    background-color: rgba(15, 15, 228, 0.74);
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    margin-left: 120px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.save_button {
+    background-color: rgba(15, 15, 228, 0.74);
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.delete-button {
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.add-button {
+    background-color: rgba(15, 15, 228, 0.74);
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border: blanchedalmond;
+}
+
+#all-tasks {
     background-color: beige;
     font-size: 15px;
-    color: black;
-    font-weight: bolder;
-    padding: 5px;
+    padding: 3px;
+    /* margin: 50px; */
+    margin-left: 0px;
+    padding-left: 1px;
+    list-style-type: none;
 }
 
 .title {
     font-family: 'Trebuchet MS';
 }
 
-.list-btn {
-    padding-left: 50px;
-}
-
-.addedTask {
-    padding: 20px;
+ul {
+    width: 100%;
+    margin-left: -20px;
 }

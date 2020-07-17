@@ -20,19 +20,12 @@
         <!-- Adding new task input tag and buttons-->
         <div class="input">
             <input type="text" id="newTask" placeholder="Enter your next task Here...">
-            <span><button id="addTask" onclick="addNewTask();"class="btn"> Add New Task </button></span>
+            <span><button id="addTask" onclick="addNewTask();"class="add-button"> Add New Task </button></span>
         </div>
-        <div class="addedTask" id="addedTask">
 
-            <span class="list-btn">
-                <button id="completed-btn">Completed</button>
-                <button>edit</button> 
-                <button>Delete</button> 
-            </span>
-        </div>
-        <div class="clearTask">
-            <button id="clearTask"> Clear All Task </button>
-        </div>
+        <ul id="all-tasks">
+
+        </ul>
     </div>
 
 </body>
